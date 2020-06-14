@@ -16,5 +16,7 @@
 /.xmonad/*
 !/.xmonad/xmonad.hs
 !/.Xresources
-!/bin
+!/bin/
+/bin/*
+!/bin/startxs
 !/.gitignore

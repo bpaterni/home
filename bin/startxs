@@ -1,0 +1,13 @@
+#!/bin/bash
+
+current_tty=$(basename $(tty))
+
+if [[ ! ( "$current_tty" =~ ^tty[0-9][012]?$ ) ]]; then
+	echo "Not currently in a tty! Doing nothing!"
+	exit
+fi
+
+ntty=$(echo "$current_tty" | cut -b '4-')
+ndsp=$(($ntty - 1 ))
+
+startx -- :"$ndsp"

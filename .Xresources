@@ -1,0 +1,24 @@
+! Xft config
+!Xft.dpi: 90
+!Xft.hinting: 1
+!Xft.hintstyle: hintfull
+!Xft.antialias: 1
+!Xft.rgba: rgba
+
+! cursor theme
+Xcursor.theme: ATER
+
+! urxvt config
+URxvt*termName:		rxvt-256color
+URxvt*background:	#000000
+!URxvt*foreground:	#00ff00
+URxvt*foreground:	#ffffff
+!URxvt*scrollBar_right:	false
+URxvt*scrollBar:	false
+!URxvt*borderLess:	false
+!URxvt*font:		xft:DejaVu Sans Mono-10
+URxvt*font:		xft:DejaVu Sans Mono-10
+URxvt*boldFont:		xft:DejaVu Sans Mono-10:style=bold
+URxvt*italicFont:	xft:DejaVu Sans Mono-10:style=italic
+URxvt*boldItalicFont:	xft:DejaVu Sans Mono-10:style=bolditalic
+URxvt*saveLines:	65535

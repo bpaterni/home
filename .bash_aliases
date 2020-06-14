@@ -1,0 +1,7 @@
+export LS_OPTIONS='--color=no'
+alias ls='ls $LS_OPTIONS'
+alias ll='ls $LS_OPTIONS -l'
+alias la='ls $LS_OPTIONS -lA'
+alias lt='ls $LS_OPTIONS -lt'
+alias l='ls $LS_OPTIONS -l'
+alias grep='grep --binary-files=without-match'
